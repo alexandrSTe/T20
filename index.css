@@ -1,34 +1,46 @@
 .Fpart{
-    width: 100%;
+    width: 1920px;
     background-color: yellow;
     height: 120px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 main{
-    width: 1600px;
-    background-color: grey;
+    width: 1160px;
     height: 1680px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 360px;
+    margin-right: 400px;
+    border: 1px solid;
 }
 footer{
-    width: 100%;
+    width: 1920px;
     background-color: red;
     height: 160px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .topic{
-    position:absolute;
-    margin-top: 40px;
+    position: absolute;
     width: 760px;
-    background-color: red;
+    background-color: green;
     height: 40px;
-    margin-left: 400px;
+    margin-left: 200px;
+    margin-top: 40px;
    }
+
+.description {
+    width: 1080px;
+    height: 80px;
+    margin-left: 40px;
+    background-color: gray;
+    margin-top: 120px;
+}
+
+.description1 {
+    width: 1080px;
+    height: 80px;
+    margin-left: 40px;
+    background-color: gray;
+    margin-top: 40px;
+}
 
 
 
