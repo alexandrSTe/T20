@@ -1,30 +1,63 @@
-.Fpart{
-    width: 1920px;
-    background-color: yellow;
-    height: 120px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-main{
+p {
+    background: gray;
+}
+
+.flex {
+    gap: 40px;
+    display: flex;
+}
+
+.flex-rev {
+    gap: 40px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.block {
+    border: black 1px solid;
+    padding: 40px 40px 80px 40px;
+    flex-direction: column;
+    gap: 40px;
+}
+
+img {
+    background: aqua;
+}
+
+main {
     width: 1160px;
     height: 1680px;
     margin-left: 360px;
     margin-right: 400px;
     border: 1px solid;
 }
-footer{
+
+footer {
     width: 1920px;
     background-color: red;
     height: 160px;
 }
 
-.topic{
+.topic {
     position: absolute;
     width: 760px;
     background-color: green;
     height: 40px;
     margin-left: 200px;
     margin-top: 40px;
-   }
+}
+
+.Fpart {
+    width: 1920px;
+    background-color: yellow;
+    height: 120px;
+}
 
 .description {
     width: 1080px;
